@@ -9,7 +9,7 @@ namespace Yandex.Checkout.V3
     /// <summary>
     /// Yamdex.Checkout HTTP API client
     /// </summary>
-    public class Client
+    public class Client : IClient
     {
         public string UserAgent { get; }
         public string ApiUrl { get; }
